@@ -1,0 +1,35 @@
+body {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+
+    background-color: blanchedalmond;
+
+    overflow: hidden;
+}
+main {
+    align-self: center;
+}
+
+.bordes, input{
+    border-radius: 15px;
+}
+
+form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: burlywood;
+}
